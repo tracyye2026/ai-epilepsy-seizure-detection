@@ -1,0 +1,83 @@
+{
+  "calib_subjects": [
+    "chb01",
+    "chb03",
+    "chb05",
+    "chb07",
+    "chb09",
+    "chb11",
+    "chb13",
+    "chb15",
+    "chb17",
+    "chb19",
+    "chb22",
+    "chb24"
+  ],
+  "test_subjects": [
+    "chb02",
+    "chb04",
+    "chb06",
+    "chb08",
+    "chb10",
+    "chb12",
+    "chb14",
+    "chb16",
+    "chb18",
+    "chb20",
+    "chb23"
+  ],
+  "chosen": {
+    "q": 0.995,
+    "floor": 0.8,
+    "min_event_sec": 8.0
+  },
+  "half_results": {
+    "calib": {
+      "n_seizures": 90,
+      "n_detected": 58,
+      "n_false_alarms": 172,
+      "hours": 496.34999999999997,
+      "sensitivity": 0.6444444444444445,
+      "fa_per_24h": 8.316711997582352
+    },
+    "test": {
+      "n_seizures": 102,
+      "n_detected": 32,
+      "n_false_alarms": 140,
+      "hours": 485.5852777777776,
+      "sensitivity": 0.3137254901960784,
+      "fa_per_24h": 6.9194849056722525
+    }
+  },
+  "paper_workpoint": {
+    "q": 0.99,
+    "floor": 0.0,
+    "min_event_sec": 15.0,
+    "half_results": {
+      "calib": {
+        "n_seizures": 90,
+        "n_detected": 52,
+        "n_false_alarms": 213,
+        "hours": 496.34999999999997,
+        "sensitivity": 0.5777777777777777,
+        "fa_per_24h": 10.29918404351768
+      },
+      "test": {
+        "n_seizures": 102,
+        "n_detected": 40,
+        "n_false_alarms": 203,
+        "hours": 485.5852777777776,
+        "sensitivity": 0.39215686274509803,
+        "fa_per_24h": 10.033253113224767
+      }
+    }
+  },
+  "calib_per_subject_mean": {
+    "sensitivity": 0.8037518037518038,
+    "fa_per_24h": 7.694375561118011
+  },
+  "test_per_subject_mean": {
+    "sensitivity": 0.48755411255411246,
+    "fa_per_24h": 6.543112106241349
+  }
+}

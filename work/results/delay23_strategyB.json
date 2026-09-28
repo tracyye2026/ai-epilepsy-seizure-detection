@@ -1,0 +1,16 @@
+{
+  "operating_point": {
+    "quantile": 0.99,
+    "floor": 0.0,
+    "min_event_sec": 15.0,
+    "smooth_sec": 8.0
+  },
+  "n_patients": 21,
+  "n_matched_events": 92,
+  "delay_median_sec": 11.5,
+  "delay_q1q3": [
+    4.5,
+    24.8
+  ],
+  "per_patient_median_median": 11.6
+}

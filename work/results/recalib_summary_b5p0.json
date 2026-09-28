@@ -1,0 +1,32 @@
+{
+  "budget_fa_per_24h": 5.0,
+  "threshold": 0.985,
+  "min_event_sec": 20.0,
+  "smooth_sec": 8.0,
+  "merge_gap_sec": 10.0,
+  "min_overlap_sec": 1.0,
+  "note": "可行",
+  "val_hours": 268.3358333333333,
+  "val_n_seizures": 19,
+  "val_sensitivity": 0.6842105263157895,
+  "val_fa_per_24h": 4.382567864274557,
+  "n_patients": 4,
+  "total_seizures": 21,
+  "total_detected": 15,
+  "pooled_sensitivity": 0.7142857142857143,
+  "sensitivity_mean": 0.6636904761904762,
+  "sensitivity_median": 0.6607142857142857,
+  "sensitivity_ci95": [
+    0.4375,
+    0.8929
+  ],
+  "total_false_alarms": 204,
+  "total_hours": 269.8852777777778,
+  "pooled_fa_per_24h": 18.141041409570114,
+  "fa_mean": 10.262077053579484,
+  "fa_median": 6.529985010949056,
+  "fa_ci95": [
+    0.3158,
+    21.1491
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "default_threshold_0p5": {
+    "n_patients": 23,
+    "pooled_sensitivity": 0.651,
+    "detected": 125,
+    "total_seizures": 192,
+    "pooled_fa_per_24h": 133.08,
+    "fa_mean": 135.8,
+    "fa_median": 53.53,
+    "sensitivity_mean": 0.787,
+    "ci95": [
+      0.447,
+      0.878,
+      80.831,
+      196.735
+    ]
+  },
+  "strategy_B_pooled_ci": [
+    0.335,
+    0.689,
+    8.153,
+    11.954
+  ],
+  "strategy_B_pooled_prec_f1": [
+    0.181,
+    0.263
+  ],
+  "strategy_A_pooled_ci": [
+    0.231,
+    0.581,
+    2.907,
+    13.181
+  ],
+  "strategy_A_pooled_prec_f1": [
+    0.192,
+    0.256
+  ],
+  "external_pooled_ci": [
+    0.437,
+    0.857,
+    3.678,
+    7.025
+  ],
+  "external_pooled_prec_f1": [
+    0.476,
+    0.545
+  ],
+  "pooled_precision_f1": {
+    "SeizureNet_策略C": {
+      "pooled_precision": 0.133,
+      "pooled_f1": 0.208,
+      "pooled_sensitivity": 0.474,
+      "pooled_fa_per_24h": 14.52
+    },
+    "SeizureNet_策略B": {
+      "pooled_precision": 0.181,
+      "pooled_f1": 0.263,
+      "pooled_sensitivity": 0.479,
+      "pooled_fa_per_24h": 10.17
+    },
+    "传统特征RF": {
+      "pooled_precision": 0.125,
+      "pooled_f1": 0.191,
+      "pooled_sensitivity": 0.406,
+      "pooled_fa_per_24h": 13.37
+    },
+    "ResNet1D": {
+      "pooled_precision": 0.108,
+      "pooled_f1": 0.179,
+      "pooled_sensitivity": 0.516,
+      "pooled_fa_per_24h": 19.99
+    }
+  }
+}

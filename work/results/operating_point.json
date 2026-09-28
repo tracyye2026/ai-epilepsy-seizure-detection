@@ -1,0 +1,13 @@
+{
+  "strategy": "B 分位阈值",
+  "budget": 10.0,
+  "threshold_mode": "quantile",
+  "thr_quantile": 0.995,
+  "thr_floor": 0.3,
+  "threshold": 0.995,
+  "min_event_sec": 10.0,
+  "val_sensitivity": 0.515625,
+  "val_fa_per_24h": 8.505652245127042,
+  "test_sensitivity": 0.46875,
+  "test_fa_per_24h": 8.40788612736696
+}

@@ -1,0 +1,36 @@
+{
+  "n_subjects": 23,
+  "spearman_rho": 0.588,
+  "spearman_p": 0.0031729106115477718,
+  "within_auc_mean": 0.987,
+  "within_auc_min": 0.944,
+  "within_auc_ge_0944": 23,
+  "cross_auc_mean": 0.907,
+  "cross_auc_min": 0.587,
+  "cross_auc_lt_080": {
+    "subjects": [
+      "chb13",
+      "chb12",
+      "chb14"
+    ],
+    "seizures": 54
+  },
+  "auc_ge080_sens_lt_050": {
+    "subjects": [
+      "chb24",
+      "chb16",
+      "chb15",
+      "chb06"
+    ],
+    "seizures": 56
+  },
+  "failure_total_seizures": 110,
+  "seizures_total": 192,
+  "sens_ge_050": 16,
+  "sens_eq_100": 9,
+  "amp_ge2_auc_min": 0.824,
+  "amp_le14_auc_range": [
+    0.587,
+    0.915
+  ]
+}

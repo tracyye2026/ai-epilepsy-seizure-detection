@@ -1,0 +1,122 @@
+{
+  "dataset": "chbmit",
+  "channel_set": "temporal4",
+  "n_folds": 6,
+  "pooled_sensitivity": 0.5,
+  "patient_mean_sensitivity": 0.5753968253968254,
+  "sensitivity_ci95": [
+    0.2896825396825397,
+    0.8340277777777771
+  ],
+  "pooled_fa_per_24h": 5.558957429248422,
+  "patient_mean_fa_per_24h": 4.541666666666666,
+  "fa_per_24h_ci95": [
+    2.249333333333334,
+    7.072525
+  ],
+  "mean_auc": 0.8950166666666667,
+  "median_delay_sec": 12.25,
+  "patient_level_sensitivity_ge50pct": 0.6666666666666666,
+  "total_seizures": 36,
+  "total_detected": 18,
+  "total_false_alarms": 87,
+  "total_hours": 375.6,
+  "seizure_free_patients": {
+    "chb01": {
+      "hours": 40.55,
+      "fa_per_24h": 0.0
+    },
+    "chb02": {
+      "hours": 35.27,
+      "fa_per_24h": 1.361
+    },
+    "chb03": {
+      "hours": 38.0,
+      "fa_per_24h": 1.263
+    },
+    "chb04": {
+      "hours": 156.06,
+      "fa_per_24h": 7.535
+    },
+    "chb05": {
+      "hours": 39.0,
+      "fa_per_24h": 0.0
+    },
+    "chb06": {
+      "hours": 66.73,
+      "fa_per_24h": 2.877
+    },
+    "chb07": {
+      "hours": 67.05,
+      "fa_per_24h": 8.948
+    },
+    "chb08": {
+      "hours": 20.01,
+      "fa_per_24h": 0.0
+    },
+    "chb09": {
+      "hours": 67.87,
+      "fa_per_24h": 5.658
+    },
+    "chb10": {
+      "hours": 50.02,
+      "fa_per_24h": 0.48
+    },
+    "chb11": {
+      "hours": 34.79,
+      "fa_per_24h": 0.69
+    },
+    "chb12": {
+      "hours": 22.69,
+      "fa_per_24h": 0.0
+    },
+    "chb13": {
+      "hours": 33.0,
+      "fa_per_24h": 0.727
+    },
+    "chb14": {
+      "hours": 26.0,
+      "fa_per_24h": 0.0
+    },
+    "chb15": {
+      "hours": 40.01,
+      "fa_per_24h": 6.598
+    },
+    "chb16": {
+      "hours": 19.0,
+      "fa_per_24h": 24.0
+    },
+    "chb17": {
+      "hours": 21.01,
+      "fa_per_24h": 34.275
+    },
+    "chb18": {
+      "hours": 35.63,
+      "fa_per_24h": 0.674
+    },
+    "chb19": {
+      "hours": 29.93,
+      "fa_per_24h": 0.0
+    },
+    "chb20": {
+      "hours": 27.6,
+      "fa_per_24h": 1.739
+    },
+    "chb21": {
+      "hours": 32.83,
+      "fa_per_24h": 0.0
+    },
+    "chb22": {
+      "hours": 31.0,
+      "fa_per_24h": 0.0
+    },
+    "chb23": {
+      "hours": 26.56,
+      "fa_per_24h": 1.807
+    },
+    "chb24": {
+      "hours": 21.3,
+      "fa_per_24h": 1.127
+    }
+  }
+}

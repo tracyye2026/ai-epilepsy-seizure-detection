@@ -1,0 +1,29 @@
+{
+  "strategy": "B",
+  "q": 0.99,
+  "floor": 0.0,
+  "min_event_sec": 15.0,
+  "n_patients": 23,
+  "sens_mean": 0.6884,
+  "sens_ci": [
+    0.5336,
+    0.8258
+  ],
+  "sens_median": 0.8333,
+  "fa_mean": 11.1948,
+  "fa_ci": [
+    9.7022,
+    12.5943
+  ],
+  "fa_median": 10.1975,
+  "pooled_sensitivity": 0.4948,
+  "pooled_n_detected": 95,
+  "pooled_n_seizures": 192,
+  "pooled_fa_per_24h": 11.3653,
+  "pooled_hours": 981.9,
+  "precision_mean": 0.2088,
+  "f1_mean": 0.3127,
+  "window_auc_foldmean": 0.8945,
+  "window_auc_pooled": 0.8709,
+  "window_auprc_pooled": 0.0967
+}

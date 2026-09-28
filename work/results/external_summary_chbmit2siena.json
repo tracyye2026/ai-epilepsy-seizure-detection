@@ -1,0 +1,24 @@
+{
+  "source": "chbmit",
+  "target": "siena",
+  "n_patients": 14,
+  "threshold": 0.75,
+  "pooled_sensitivity": 0.6382978723404256,
+  "patient_mean_sensitivity": 0.6607142857142857,
+  "sensitivity_ci95": [
+    0.4583035714285715,
+    0.8465178571428572
+  ],
+  "pooled_fa_per_24h": 5.61622464898596,
+  "patient_mean_fa_per_24h": 4.485571428571428,
+  "fa_per_24h_ci95": [
+    2.659642857142857,
+    6.206764285714287
+  ],
+  "window_auc": 0.7681171281746804,
+  "total_seizures": 47,
+  "total_detected": 30,
+  "total_hours": 141.01999999999998,
+  "internal_lopo_sensitivity": 0.668874007936508,
+  "generalization_gap_sensitivity": 0.008159722222222276
+}

@@ -1,0 +1,33 @@
+{
+  "strategy": "A 全局阈值",
+  "budget_fa_per_24h": 10.0,
+  "threshold": 0.993,
+  "min_event_sec": 5.0,
+  "smooth_sec": 8.0,
+  "merge_gap_sec": 10.0,
+  "min_overlap_sec": 1.0,
+  "n_patients": 24,
+  "total_seizures": 192,
+  "total_detected": 87,
+  "pooled_sensitivity": 0.453125,
+  "sensitivity_mean": 0.5873015873015873,
+  "sensitivity_median": 0.75,
+  "sensitivity_ci95": [
+    0.4087,
+    0.7505
+  ],
+  "total_false_alarms": 624,
+  "total_hours": 981.9352777777777,
+  "pooled_fa_per_24h": 15.251514370572625,
+  "fa_mean": 13.914579461217244,
+  "fa_median": 2.794032257507125,
+  "fa_ci95": [
+    4.0528,
+    28.3451
+  ],
+  "note": "可行",
+  "val_hours": 981.9352777777776,
+  "val_n_seizures": 192,
+  "val_sensitivity": 0.46875,
+  "val_fa_per_24h": 9.801053305448114
+}

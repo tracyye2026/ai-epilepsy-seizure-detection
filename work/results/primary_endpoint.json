@@ -1,0 +1,63 @@
+{
+  "endpoint_definition": "主要终点 = 事件级灵敏度 与 假报警率(FA/24h)",
+  "strategy": "B 分位阈值",
+  "threshold_mode": "quantile",
+  "thr_quantile": 0.995,
+  "thr_floor": 0.3,
+  "min_event_sec": 10.0,
+  "budget_fa_per_24h": 10.0,
+  "calibrated_on": "验证患者池（阈值与工作点未使用任何测试患者数据）",
+  "n_patients": 24,
+  "total_seizures": 192,
+  "total_detected": 90,
+  "pooled_sensitivity": 0.46875,
+  "sensitivity_mean": 0.6554621848739496,
+  "sensitivity_median": 0.75,
+  "sensitivity_ci95": [
+    0.5084286006069094,
+    0.7885218253968252
+  ],
+  "total_false_alarms": 344,
+  "total_hours": 981.9352777777777,
+  "pooled_fa_per_24h": 8.40788612736696,
+  "fa_mean": 7.4954735531993775,
+  "fa_median": 7.133213336311959,
+  "fa_ci95": [
+    6.353134795937946,
+    8.733499322279194
+  ],
+  "patients_sensitivity_ge50pct": 0.75,
+  "control_A_global_threshold": {
+    "n_patients": 24,
+    "total_seizures": 192,
+    "total_detected": 87,
+    "pooled_sensitivity": 0.453125,
+    "sensitivity_mean": 0.5873015873015873,
+    "sensitivity_median": 0.75,
+    "sensitivity_ci95": [
+      0.4087301587301588,
+      0.7505332341269839
+    ],
+    "total_false_alarms": 624,
+    "total_hours": 981.9352777777777,
+    "pooled_fa_per_24h": 15.251514370572625,
+    "fa_mean": 13.914579461217242,
+    "fa_median": 2.794032257507125,
+    "fa_ci95": [
+      4.052794262196081,
+      28.345065522318045
+    ],
+    "patients_sensitivity_ge50pct": 0.6666666666666666
+  },
+  "window_auc": 0.9050916666666667,
+  "window_auc_note": "窗级 AUC 与阈值无关，取自同一批 LOPO 模型",
+  "median_delay_sec_default_thr": 4.78,
+  "sensitivity_ge50pct_default_thr": 0.7083333333333334,
+  "control_default_threshold": {
+    "note": "未标定（默认固定阈值）的原始 LOPO 输出，仅作对照",
+    "pooled_sensitivity": 0.4791666666666667,
+    "sensitivity_mean": 0.668874007936508,
+    "pooled_fa_per_24h": 20.922487804381255,
+    "fa_mean": 22.67720833333333
+  }
+}
